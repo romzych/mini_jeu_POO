@@ -55,7 +55,7 @@ class HumanPlayer < Player
       puts "Youhou ! elle est meilleure que ton arme actuelle : tu la prends."
       @weapon_level = lvl_weapon
     else
-      puts "M@*#$... elle n'est pas mieux que ton arme actuelle..."
+      puts "Crotte elle n'est pas mieux que ton arme actuelle..."
     end
   end
 
