@@ -71,6 +71,7 @@ class HumanPlayer < Player
       end
     elsif randomize_life == 6
       puts "Waow, tu as trouvé un pack de +80 points de vie !"
+      @life_points = @life_points + 80
       if @life_points > 100
         @life_points = 100
       end
